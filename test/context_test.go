@@ -59,4 +59,5 @@ func TestDev(t *testing.T) {
 	d := D1{B1: b}
 
 	fmt.Println(d, d.B1.x, d.x)
+
 }

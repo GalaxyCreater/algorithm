@@ -62,3 +62,15 @@ func TestRadixSort(t *testing.T) {
 	RadixSort(lst)
 	fmt.Println(lst)
 }
+
+func TestMyBubbleSort(t *testing.T) {
+	lst := []int{32, 43, 12, 44, 44, 65, 21, 1}
+	MyBubbleSort(lst)
+	fmt.Println(lst)
+}
+
+func TestMyQuickSort(t *testing.T) {
+	lst := []int{6, 11, 3, 9, 8}
+	MyQuickSort(lst)
+	fmt.Println(lst)
+}
