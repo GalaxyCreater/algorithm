@@ -1,7 +1,7 @@
 package graph_test
 
 import (
-	"test_code/algorithm/graph"
+	"algorithm/graph"
 	"testing"
 )
 
@@ -30,9 +30,9 @@ func TestGraph(t *testing.T) {
 
 	g.Print()
 
-	//g.BreadthFirstSearch("0", "6")
+	g.BfTest()
 
-	g.DepthFirstSearch("1", "7")
+	g.DfTest()
 
-	//g.SearchFriendDegree("1", 2)
+	g.FriendDegreeTest()
 }

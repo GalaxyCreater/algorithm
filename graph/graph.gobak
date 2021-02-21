@@ -4,9 +4,7 @@ import (
 	"fmt"
 )
 
-/*
-有向有权重的图
-*/
+/*有向有权重的图*/
 
 type Relationship struct {
 	weight int //关系的权重
